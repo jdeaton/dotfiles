@@ -1,0 +1,10 @@
+export PATH="/usr/sbin:/sbin"
+export PATH="/usr/bin:/bin:${PATH}"
+export PATH="/usr/local/bin:${PATH}"
+
+if [ -d "${HOME}/dotfiles-work" ]; then
+    source ${HOME}/dotfiles-work/system/path
+fi
+
+export PATH="${HOME}/Code/spack/bin:${PATH}"
+
