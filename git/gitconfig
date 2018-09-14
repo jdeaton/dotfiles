@@ -1,0 +1,5 @@
+[user]
+        name = Josh Deaton
+        email = jdeaton@users.noreply.github.com
+[core]
+    excludesfile = ~/.gitignore
