@@ -1,1 +1,5 @@
 alias ls='ls -GFh'
+
+if [ -d "${HOME}/dotfiles-work" ]; then
+    source ${HOME}/dotfiles-work/system/alias
+fi
