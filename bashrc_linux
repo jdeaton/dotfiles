@@ -1,0 +1,4 @@
+export DF=${HOME}/dotfiles
+
+source ${DF}/system/prompt
+source ${DF}/system/prompt-git
