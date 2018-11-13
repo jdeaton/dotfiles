@@ -1,6 +1,7 @@
 export PATH="/usr/sbin:/sbin"
 export PATH="/usr/bin:/bin:${PATH}"
 export PATH="/usr/local/bin:${PATH}"
+export PATH="/usr/local/sbin:${PATH}"
 
 if [ -d "${HOME}/dotfiles-work" ]; then
     source ${HOME}/dotfiles-work/system/path
